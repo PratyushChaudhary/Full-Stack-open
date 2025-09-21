@@ -39,7 +39,12 @@ const Statistics = ({ good, neutral, bad, total }) => {
       </div>
     );
   }
-  return <p>No feedback given</p>;
+  return (
+    <div>
+      <h1>statistics</h1>
+      <p>No feedback given</p>
+    </div>
+  );
 };
 
 const App = () => {
